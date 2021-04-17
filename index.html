@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MONEY TRANSFER</title>
+<link rel="stylesheet" type="text/css" href="C:\Users\DELL\Desktop\new project\css\style3.css" />
+<script src="C:\Users\DELL\Desktop\new project\script.js"></script>
+</head>
+<body style="background-color:powderblue;">
+<table>
+	<tr>
+		<td>
+			<form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+				<center><h2 style="color:#d64161;">WELCOME TO  NATURE BANK NET-BANKING OPTION</h2></center>
+			<div>
+			<label>Your Account Number*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+			<input type="text" name="idNumber" id="idNumber">
+			</div>
+			<div>
+			<label>Full Name of Recipient*</label>
+			<input type="text" name="fullName" id="fullName">
+			</div>
+			<div>
+			<label>Account Type*</label>
+			<input type="text" name="accountType" id="accountType">
+			</div>
+			<div>
+			<label>Recipient Account Number*</label>
+			<input type="text" name="accountNumber" id="accountNumber">
+			</div>
+			<div>
+			<label>Amount To Transfer*</label>
+			<input type="text" name="mobileNumber" id="mobileNumber">
+			</div>
+			<div class="form-action-buttons">
+				<center><input type="submit" value="Transfer the Amount"></center>
+			</div>
+			</form>
+		</td>
+			<table class="list" id="bank">
+				<thead>
+					<tr>
+						<center><h2 style="color:#b2ad7f;">HISTORY OF TRANSACTION</h2></center>
+						<th>Your Account Number</th>
+						<th>Full Name of Recipient</th>
+						<th>Account Type</th>
+						<th>Recipient Account Number</th>
+						<th>Amount Has Been Transferred</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>10101214151414</td>
+						<td>Raj shankar</td>
+						<td>SB</td>
+						<td>78757478747575</td>
+						<td>1000</td>
+					  </tr>
+					  <tr>
+						<td>77552233669955</td>
+						<td>Ravi kumar</td>
+						<td>CA</td>
+						<td>44662859658752</td>
+						<td>5000</td>
+					  </tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>	
+</table>
+<script>
+</script>
+</body>
+</html>
